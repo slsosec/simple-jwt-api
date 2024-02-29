@@ -29,7 +29,7 @@
   "homepage": "https://github.com/slsosec/simple-jwt-api#readme",
   "dependencies": {
     "fastify": "^4.26.1",
-    "passport-jwt": "^4.0.1"
+    "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"

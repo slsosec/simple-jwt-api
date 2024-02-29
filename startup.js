@@ -6,10 +6,3 @@ const fastify = Fastify({
 });
 
 await entrypoint(fastify);
-
-try {
-    await fastify.listen({ port: process.env.PORT ?? 5000 });
-} catch (error) {
-    fastify.log.error(error);
-    process.exit(1);
-}
