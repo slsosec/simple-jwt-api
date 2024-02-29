@@ -5,3 +5,11 @@
 Created by [@slsosec](https://github.com/slsosec)
 
 This project consists of an API that manages the authenticity of the token sent by the user during the endpoint access process. In addition to validating access, it generates a token so that it can be used during the session.
+
+How to run:
+```
+clone this reposiroty then,
+
+- npm install
+- npm run dev or npm start 
+```
