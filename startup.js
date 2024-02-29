@@ -1,12 +1,11 @@
 import Fastify from "fastify";
+import entrypoint from "./source/entrypoint.js";
 
 const fastify = Fastify({
     logger: true
 });
 
-fastify.get('/', async function handler (request, reply) {
-    return { hello: 'world' }
-})
+await entrypoint(fastify);
 
 try {
     await fastify.listen({ port: process.env.PORT ?? 5000 });
