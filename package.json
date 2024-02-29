@@ -1,0 +1,37 @@
+{
+  "name": "@slsosec/simple-jwt-api",
+  "version": "1.0.0",
+  "description": "API in NodeJS, Fastify and Passport, for jwt authentication.",
+  "main": "startup.js",
+  "type": "module",
+  "scripts": {
+    "start": "node startup.js",
+    "dev": "nodemon startup.js",
+    "test": "echo 'Hello, world!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slsosec/simple-jwt-api.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Fastify",
+    "API",
+    "Passport",
+    "JWT",
+    "Authentication"
+  ],
+  "author": "slsosec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slsosec/simple-jwt-api/issues"
+  },
+  "homepage": "https://github.com/slsosec/simple-jwt-api#readme",
+  "dependencies": {
+    "fastify": "^4.26.1",
+    "passport-jwt": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
